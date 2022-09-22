@@ -15,6 +15,8 @@ _\*subject to change before audit starts_
 
 # Audit scope
 
+> 2,603 nSLOC in 21 contracts (subject to small changes)
+
 TBD
 
 # About Knox Finance
