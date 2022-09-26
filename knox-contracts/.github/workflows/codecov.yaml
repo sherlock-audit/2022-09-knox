@@ -1,0 +1,39 @@
+name: Codecov coverage report
+
+on:
+  push:
+    branches: [master, release]
+  pull_request:
+
+jobs:
+  codecov:
+    runs-on: ubuntu-latest
+
+    env:
+      ARBITRUM_URI: ${{ secrets.ARBITRUM_URI }}
+      GOERLI_URI: ${{ secrets.GOERLI_URI }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16.15.0"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate typechain typings
+        run: npm run typechain
+
+      - name: Generate coverage report
+        run: npm run coverage
+
+      - name: Report coverage
+        uses: codecov/codecov-action@v2
+        with:
+          name: knox-contracts-tests
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./coverage
+          files: coverage-final.json
+          fail_ci_if_error: true
+          verbose: true

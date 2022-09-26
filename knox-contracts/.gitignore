@@ -1,0 +1,16 @@
+node_modules/
+types/
+
+#Hardhat files
+cache/
+artifacts/
+abi/
+.env
+.env.prod
+coverage.json
+coverage/
+docgen/
+
+.DS_Store
+.vscode
+.mocharc*
