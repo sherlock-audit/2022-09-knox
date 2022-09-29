@@ -12,7 +12,7 @@
 - [Docs](https://docs.knoxvaults.com/)
 - [Twitter](https://twitter.com/knox_finance)
 
-Test instruction can be found in `knox-contracts/README.md`, verified to be running correctly using Hardhat 2.10.0.
+Test instructions can be found in `knox-contracts/README.md`, verified to be running correctly using Hardhat 2.10.0.
 
 # Audit scope
 
