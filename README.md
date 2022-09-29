@@ -12,6 +12,8 @@
 - [Docs](https://docs.knoxvaults.com/)
 - [Twitter](https://twitter.com/knox_finance)
 
+Test instruction can be found in `knox-contracts/README.md`, verified to be running correctly using Hardhat 2.10.0.
+
 # Audit scope
 
 Commit Hash: [b0a872d25caeb833bab17e69ef0de51d7ca862a2](https://github.com/KnoxFinance/knox-contracts/tree/b0a872d25caeb833bab17e69ef0de51d7ca862a2)
