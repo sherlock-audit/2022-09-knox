@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": false,
+    "node": true,
+    "mocha": true,
+    "commonjs": false,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-unexpected-multiline": "off"
+  }
+}
