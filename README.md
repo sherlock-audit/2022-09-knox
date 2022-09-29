@@ -1,13 +1,11 @@
 # Knox Finance contest details
 
-- 50,000 USDC main award pot\*
+- 50,000 USDC main award pot
 - Join [Sherlock Discord](https://discord.gg/MABEWyASkp)
 - Submit findings using the issue page in your private contest repo (label issues as med or high)
 - [Read for more details](https://docs.sherlock.xyz/audits/watsons)
 - Starts September 29, 2022 15:00 UTC
-- Ends October 13, 2022 15:00 UTC\*
-
-_\*subject to change before audit starts_
+- Ends October 13, 2022 15:00 UTC
 
 # Resources
 
@@ -15,8 +13,6 @@ _\*subject to change before audit starts_
 - [Twitter](https://twitter.com/knox_finance)
 
 # Audit scope
-
-> 2,603 nSLOC in 21 contracts (subject to small changes)
 
 Commit Hash: [b0a872d25caeb833bab17e69ef0de51d7ca862a2](https://github.com/KnoxFinance/knox-contracts/tree/b0a872d25caeb833bab17e69ef0de51d7ca862a2)
 
