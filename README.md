@@ -10,13 +10,14 @@
 # Resources
 
 - [Docs](https://docs.knoxvaults.com/)
+- [Contracts](https://github.com/sherlock-audit/2022-09-knox/tree/master/knox-contracts/contracts)
 - [Twitter](https://twitter.com/knox_finance)
 
 Test instructions can be found in `knox-contracts/README.md`, verified to be running correctly using Hardhat 2.10.0.
 
 # Audit scope
 
-Commit Hash: [b0a872d25caeb833bab17e69ef0de51d7ca862a2](https://github.com/KnoxFinance/knox-contracts/tree/b0a872d25caeb833bab17e69ef0de51d7ca862a2)
+Commit Hash: b0a872d25caeb833bab17e69ef0de51d7ca862a2
 
 ```
 - contracts/auction/
